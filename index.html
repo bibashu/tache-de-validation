@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validation Bootstrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand logo ms-2" href="#"
+          ><h1>Impact<span>.</span></h1></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Offcanvas start -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title h1 text-white" id="offcanvasNavbarLabel">
+              Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Porfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header End -->
+
+    <section class="section1">
+      <div class="container position-relative">
+        <div class="row gy-5" data-aos="fade-in">
+          <div
+            class="col-lg-6 order-2 order-lg-1 d-flex flex-column text-white justify-content-center text-center text-lg-start"
+          >
+            <h1 class="fw-bold">Welcome to <span>Impact</span></h1>
+            <p>
+              Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+              eveniet. Eum quas beatae cumque eum quaerat.
+            </p>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <a href="#about" class="btn btn-started me-4">Get started</a>
+              <a
+                href="#about"
+                class="glightbox btn-watch-video text-white fs-4 d-flex align-items-center"
+                ><i class="fa fa-play "></i>Watch video</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img
+              src="images/undraw_mobile_content_xvgr.svg"
+              class="img-fluid"
+              alt=""
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="icon-boxes position-relative">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+            <div
+              class="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="images/investor 1.svg" alt="" />
+                  <h4 class="titre mt-4">lorem Ipsum</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="images/investor 1.svg" alt="" />
+                  <h4 class="titre  mt-4">lorem Ipsum</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="images/investor 1.svg" alt="" />
+                  <h4 class="titre  mt-4">lorem Ipsum</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="images/investor 1.svg" alt="" />
+                  <h4 class="titre  mt-4">lorem Ipsum</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End section -->
+    <!-- Start Main section -->
+    <main id="main">
+      <section class="about" id="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header text-center mt-5">
+            <h2 class="title">About Us</h2>
+            <p class="mt-5">
+              Aperiam dolorum et et wuia molestias qui eveniet numquam nihil
+              porro incidunt dolores placeat sunt id nobis omnis tiledo stran
+              delop
+            </p>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+              <img
+                src="images/images1.jpg"
+                class="img-fluid rounded-4 mb-4 mt-3"
+                alt=""
+              />
+              <p>
+                Nam rutrum leo quis lacus commodo aliquam. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. Aenean blandit consequat accumsan. 
+              </p>
+              <p>
+                commodo tincidunt velit sed, tincidunt facilisis mi. Aenean
+                tristique ante in urna elementum, eu pellentesque metus semper.
+                vitae ullamcorper sem augue eget sem. Nulla ac ultrices neque,
+                sed pharetra magna. Nunc eros neque, tempor finibus varius at,
+                blandit nec diam. Quisque id arcu non orci rutrum vestibulum
+                quis at nisi. Nulla vestibulum lobortis purus at consequat.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="content ps-0 ps-lg-5">
+                <p class="text-italic">
+                  Sed elementum lorem non aliquet iaculis. Sed ex lectus,
+                  malesuada vestibulum nisi sit amet, faucibus rhoncus odio.
+                  Nunc suscipit arcu in risus maximus blandit.
+                </p>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i
+                      class="fa fa-check-circle fa-1 pe-2"
+                      style="color: rgb(6, 133, 6)"
+                    ></i>
+                    Nam rutrum leo quis lacus commodo aliquam.
+                  </li>
+
+                  <li class="mb-2" ><i class="fa fa-check-circle  pe-2 " style="color: rgb(6, 133, 6); "
+                    ></i>
+                    Class aptent taciti sociosqu ad litora torquent
+                  </li>
+
+                  <li>
+                    <i
+                      class="fa fa-check-circle fa-1 pe-2 mb-2"
+                      style="color: rgb(6, 133, 6)"
+                    ></i>
+                    Mauris finibus suscipit elit, vel consequat quam ullamcorper
+                    viverra. Sed lectus purus, commodo tincidunt velit sed,
+                    tincidunt facilisis mi.
+                  </li>
+                </ul>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                <div class="position-relative mt-4 img-play">
+                  <img src="images/image2.jpg" class="img-fluid rounded-4" alt="">
+                  <a href="https://www.youtube.com/watch?v=fLeJJPxua3E"><i class="fa fa-play play-btn fa-2x " style="color: rgba(255, 255, 255, 0.718);"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main section -->
+
+    <!-- Bootstrap Javavscript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
